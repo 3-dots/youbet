@@ -65,3 +65,6 @@ typings/
 
 # built / generated files:
 *.zip
+
+#Mac BS
+*.DS_Store
