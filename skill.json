@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "gadgetSupport": {
+					"maxGadgetButtons": 4,
+					"numPlayersMax": 4,
+					"minGadgetButtons": 1,
+					"requirement": "REQUIRED",
+					"numPlayersMin": 1
+				},
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open you bet",
+            "Alexa tell you bet hello",
+            "Alexa ask you bet say hello"
+          ],
+          "keywords": [
+            "Descriptive_Phrase_1",
+            "Descriptive_Phrase_2",
+            "Descriptive_Phrase_3"
+          ],
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/81df/9b7bfe5265fb4f11b9ed0d2213dbe7da/APP_ICON?versionId=cqH2YAglXfhqrOWO1a.CxOIamX5bUpw0&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540847751&Signature=sIhgztcByRpOrRwm7%2BeTAjbTORU%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e859/c379083ed44a4fefa350031c25de38e3/APP_ICON_LARGE?versionId=_xBIpYcYm6.be7waYHzhivBjoexOhiB8&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540847751&Signature=WLAi1h2Y25cSqpVw9foa6%2FLfxvc%3D",
+          "name": "you bet",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type":"GADGET_CONTROLLER"
+          }
+        ]
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://www.myprivacypolicy.sampleskill.com",
+          "termsOfUseUrl": "http://www.termsofuse.sampleskill.com"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
