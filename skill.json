@@ -21,10 +21,10 @@
             "Descriptive_Phrase_2",
             "Descriptive_Phrase_3"
           ],
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/81df/9b7bfe5265fb4f11b9ed0d2213dbe7da/APP_ICON?versionId=cqH2YAglXfhqrOWO1a.CxOIamX5bUpw0&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540847751&Signature=sIhgztcByRpOrRwm7%2BeTAjbTORU%3D",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e859/c379083ed44a4fefa350031c25de38e3/APP_ICON_LARGE?versionId=_xBIpYcYm6.be7waYHzhivBjoexOhiB8&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540847751&Signature=WLAi1h2Y25cSqpVw9foa6%2FLfxvc%3D",
+          "smallIconUri": "https://github.com/3-dots/youbet/raw/master/APP_ICON.png",
+          "largeIconUri": "https://github.com/3-dots/youbet/raw/master/APP_ICON_LARGE.png",
           "name": "you bet",
-          "description": "Sample Full Description"
+          "description": "Sample Full Description, Icons designed by Dimi Kazak"
         }
       },
       "isAvailableWorldwide": true,

@@ -16,7 +16,7 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "f1ef3fb462cb937b0c12a20b9ec98e46"
+          "eTag": "485defeb4ad40d00a41d0b6b2abac073"
         },
         "interactionModel": {
           "en-US": {
@@ -31,7 +31,7 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "3f38aa68-84a1-47f9-94ec-df3744d91db1"
+            "revisionId": "f60fe118-1b49-404b-b515-c367f6e9d873"
           }
         ]
       }
