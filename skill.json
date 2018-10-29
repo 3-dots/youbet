@@ -2,12 +2,12 @@
   "manifest": {
     "publishingInformation": {
       "gadgetSupport": {
-					"maxGadgetButtons": 4,
-					"numPlayersMax": 4,
-					"minGadgetButtons": 1,
-					"requirement": "REQUIRED",
-					"numPlayersMin": 1
-				},
+        "maxGadgetButtons": 4,
+        "numPlayersMax": 4,
+        "minGadgetButtons": 1,
+        "requirement": "REQUIRED",
+        "numPlayersMin": 1
+      },
       "locales": {
         "en-US": {
           "summary": "Sample Short Description",
@@ -37,9 +37,11 @@
         "endpoint": {
           "sourceDir": "lambda/custom"
         },
-        "interfaces": [
+        "interfaces": [{
+            "type": "GAME_ENGINE"
+          },
           {
-            "type":"GADGET_CONTROLLER"
+            "type": "GADGET_CONTROLLER"
           }
         ]
       }
